@@ -136,3 +136,34 @@
     border: 1px solid black;
     background-color: white;
 }
+
+#trending {
+  margin-top: 24px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+}
+
+#trending .tags {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+#trending .tags p {
+  background-color: white;
+  color: black;
+  border-radius: 50px;
+  padding: 6px 15px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#trending .tags p:hover {
+  background-color: #ea4c89;
+  color: white;
+}
